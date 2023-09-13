@@ -1,0 +1,80 @@
+/* Container for the entire page */
+.client-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  padding: 100px;
+}
+
+/* Label styles */
+.client-label {
+  margin-bottom: 10px;
+  
+}
+label {
+  display: inline-block;
+  width: 250px;
+  padding: 6px;
+}
+/* Input styles for text boxes */
+.client-input {
+  display: inline-block;
+  width: 100%; /* Take up the entire width of the container */
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  align-items: right;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.link-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Use flexbox */
+  justify-content: flex-end; /* Align items to the right */
+}
+/* Select box style */
+#idDropdown {
+  width: 10%; /* Take up the entire width of the container */
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column; /* Display children vertically */
+  align-items: center; /* Center horizontally */
+  width: 100%;
+}
+
+.inner {
+   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  text-align: center;
+  min-height: 77vh;
+}
+
+
+/* Style for individual text box containers */
+.inner > div {
+  width: calc(50% - 10px); /* 50% width for each text box with spacing */
+  margin-right: 10px; /* Add spacing between text boxes */
+}
+ 

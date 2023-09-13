@@ -1,0 +1,23 @@
+/* Home Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  
+ 
+  
+}
+
+
+
+/* Headings */
+.home-title,
+.dashboard-title {
+  color: black;
+  text-align: start; /* Center text horizontally */
+}
+
+
+
+
+
